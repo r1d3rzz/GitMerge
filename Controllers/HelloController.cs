@@ -6,18 +6,12 @@ using System.Web.Mvc;
 
 namespace GitMerge.Controllers
 {
-    public class TestController : Controller
+    public class HelloController : Controller
     {
-        // GET: Test
+        // GET: Hello
         public ActionResult Index()
         {
-            var test = "test";
-            return View();
-        }
-
-        public ActionResult Update()
-        {
-            var rider = "rider";
+            var test = "update by rider";
             return View();
         }
     }
