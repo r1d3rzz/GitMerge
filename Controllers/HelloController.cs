@@ -11,6 +11,7 @@ namespace GitMerge.Controllers
         // GET: Hello
         public ActionResult Index()
         {
+            var dev = "haha";
             return View();
         }
 
