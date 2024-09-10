@@ -11,6 +11,12 @@ namespace GitMerge.Controllers
         // GET: Test
         public ActionResult Index()
         {
+            var test = "test";
+            return View();
+        }
+
+        public ActionResult Update()
+        {
             return View();
         }
     }
