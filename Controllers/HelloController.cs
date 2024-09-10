@@ -18,5 +18,11 @@ namespace GitMerge.Controllers
         {
             return View();
         }
+
+        public ActionResult Update()
+        {
+            var test = "update date by Dev";
+            return View();
+        }
     }
 }
