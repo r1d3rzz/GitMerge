@@ -17,6 +17,7 @@ namespace GitMerge.Controllers
 
         public ActionResult Update()
         {
+            var rider = "rider";
             return View();
         }
     }
